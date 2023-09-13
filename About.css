@@ -1,0 +1,368 @@
+
+.about-companyBanner {
+    width: 100%;
+    height: 300px;
+    display: table;
+    text-align: center;
+    background: url(assets/img/aaaa.jpg) no-repeat;
+    background-size: cover;
+}
+.about-companyBanner h5 {
+    color: #ececec;
+}
+    h5 
+    {
+        font-weight: 400;
+        font-size: 26px;
+        padding-top: 80px;
+        
+     
+        
+        
+    }
+
+    @media screen and (min-width: 792px){
+    
+    
+    .about-companyBanner{
+        height: 240px;
+    }
+    
+    
+    .about-companyBanner h5 {
+        font-size: 50px;
+        padding-left: 10px;
+    }
+}
+    
+.content-section{
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content-section .card{
+    flex: 2;
+    margin: 40px 20px;
+}
+
+.content-section .card p{
+    max-width: 980px;
+    margin: 0 auto;
+    line-height: 2.1;
+}
+
+@media screen and (max-width: 768px){
+    .content-section{
+flex-direction: column;
+
+   
+ 
+}
+}
+    
+
+  
+  .contain .main-video video{
+    width: 60%;
+    border-color: rgb(165, 144, 144);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+  
+  
+  }
+  
+.main-video img{
+    border-radius: 20px;
+    border-color: rgb(119, 102, 102);
+}
+
+
+  .gallery-section{
+    width: 100%;
+    padding: 60px 0;
+   
+  }
+  
+  .inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .gallery-section h1{
+    text-align: center;
+    
+    
+    color: #333;
+  }
+  
+  .border{
+    width: 180px;
+    height: 4px;
+    
+    margin: 60px auto;
+  }
+  
+  .gallery-section .gallery{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  
+  .gallery-section .image{
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .gallery-section .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+  }
+  
+  .gallery-section .image:hover img{
+    transform: scale(1.4) rotate(15deg);
+  }
+  
+  @media screen and (max-width:960px) {
+    .gallery-section .image{
+      flex: 33.33%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .gallery-section .image{
+      flex: 50%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .gallery-section .image{
+      flex: 100%;
+    }
+  }
+ 
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/*===== VARIABLES CSS =====*/
+:root {
+ 
+  /*========== Colors ==========*/
+ 
+
+
+  /*========== Font weight ==========*/
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*========== Margenes ==========*/
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+  /*========== z index ==========*/
+
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+
+/*========== BASE ==========*/
+
+
+/*========== Variables Dark theme ==========*/
+
+/*========== Button Dark/Light ==========*/
+
+
+
+
+/*========== CLASS CSS ==========*/
+
+.bd-container{
+  max-width: 998px;
+
+  width: calc(100% -5rem);
+  margin-left: var(--mb-3);
+  margin-right: var(--mb-3);
+}
+
+.bd-grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+
+/*========== NAV ==========*/
+
+/* Show menu */
+
+
+/* Active menu link */
+
+
+
+
+/* Change background header */
+
+/* Scroll top */
+
+
+/*========== BUTTONS ==========*/
+
+/*========== SHARE ==========*/
+
+
+/*========== DECORATION ==========*/
+.decoration__container{
+  padding-top: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.decoration__data{
+
+  text-align: center;
+  padding: 1rem 1rem 2rem;
+
+ 
+  border-radius: 1rem;
+}
+
+
+
+steps__car.decoration__img{
+color: rgb(255, 0, 0);
+  width: 180px;
+}
+
+.decoration__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+.button--flexy{
+  min-width: 198px;
+  margin-top: 50px;
+  border: 2px solid #b2b2b2;
+  border-radius: 5px;
+  text-align: center;
+  color: #000;
+  display: inline-block;
+  line-height: 3.2;
+  font-weight: 500;
+  font-size: 15px;
+
+
+}
+/*========== ACCESSORIES ==========*/
+.decoration__containery{
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.decoration__datay{
+  text-align: center;
+  padding: 1rem 1rem 2rem;
+  background-color: var(--container-color);
+  
+  border-radius: 1rem;
+}
+
+
+
+
+
+.decorationy__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+.button--flexy{
+  min-width: 198px;
+  margin-top: 50px;
+  border: 2px solid #b2b2b2;
+  border-radius: 5px;
+  text-align: center;
+  color: #000;
+  display: inline-block;
+  line-height: 3.2;
+  font-weight: 500;
+  font-size: 15px;
+
+
+}
+
+/*========== SEND GIFT ==========*/
+
+.team .row{
+  margin-top: 2rem;
+}
+.team-item{
+  margin: 5rem 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(99, 89, 89, 0.15);
+}
+.team-img{
+  position: relative;
+}
+
+.containery{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
+.team-info h3{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.team-info p{
+  padding-left: 10px;
+
+}
+.button--flexz{
+  min-width: 198px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border: 2px solid #b2b2b2;
+  border-radius: 5px;
+  text-align: center;
+  color: #000;
+  display: inline-block;
+  line-height: 3.2;
+  font-weight: 500;
+  font-size: 15px;
+
+
+}
+.team .title h6{
+  padding-top: 80px;
+}
+/*========== FOOTER ==========*/
+
+/*========== MEDIA QUERIES ==========*/
+
+/* For full-screen images on small screens */
+
+
+
+
+  
+
+ 
+
+@media screen and (min-width: 968px){
+  .bd-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  
+}
